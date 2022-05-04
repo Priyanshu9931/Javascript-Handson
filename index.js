@@ -4,6 +4,7 @@
 
 /* I love to teach and play with kids */
 
-let myVar = 11;
+const ourDecimal = 5.7;
 
-myVar--;
+// Only change code below this line
+const myDecimal = 5.4;
