@@ -5,8 +5,9 @@
 /* I love to teach and play with kids */
 
 // Setup
-let lastNameLength = 0;
+let firstLetterOfLastName = "";
 const lastName = "Lovelace";
 
 // Only change code below this line
-lastNameLength = lastName.length;
+firstLetterOfLastName = lastName [0];
+ // Change this line
