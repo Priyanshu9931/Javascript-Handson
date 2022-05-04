@@ -4,5 +4,6 @@
 
 /* I love to teach and play with kids */
 
-const myName = "Priyanshu";
-const myStr = "My name is" + "and I am well!" + myName + "Priyanshu";
+const someAdjective = " I love To Travel";
+let myStr = "Learning to code is ";
+myStr += someAdjective;
