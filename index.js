@@ -4,8 +4,11 @@
 
 /* I love to teach and play with kids */
 
-// Setup
-const lastName = "Lovelace";
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
 
 // Only change code below this line
-const secondToLastLetterOfLastName = lastName[lastName.length -2]; // Change this line
+const wordBlanks = "The " + myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb + "."; // Change this line
+// Only change code above this lin
