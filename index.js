@@ -4,8 +4,7 @@
 
 /* I love to teach and play with kids */
 
-function functionWithArgs(a, b) {
-    console.log(a + b);
+function timesFive(num){
+    return num * 5;
   }
-  functionWithArgs(1, 2);
-  functionWithArgs(7,9 )
+   var answer = timesFive(5);
