@@ -4,4 +4,5 @@
 
 /* I love to teach and play with kids */
 
-var a = 9;
+var myFirstName = "Priyanshu";
+var myLastName = "Bhardwaj";
