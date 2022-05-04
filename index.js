@@ -4,4 +4,4 @@
 
 /* I love to teach and play with kids */
 
-const product = 8 * 10;
+const quotient = 66 / 33;
