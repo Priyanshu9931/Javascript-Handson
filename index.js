@@ -4,4 +4,4 @@
 
 /* I love to teach and play with kids */
 
-const product = 2.0 * 2.5;
+const quotient = 4.4 / 2;
