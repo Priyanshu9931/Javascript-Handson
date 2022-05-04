@@ -4,4 +4,6 @@
 
 /* I love to teach and play with kids */
 
-const quotient = 66 / 33;
+let myVar = 87;
+
+myVar++;
