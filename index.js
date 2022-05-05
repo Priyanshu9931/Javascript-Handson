@@ -4,33 +4,28 @@
 
 /* I love to teach and play with kids */
 
-// Setup
-function phoneticLookup(val) {
-  var result = "";
 
-  var lookup = {
-    "alpha": "Adams",
-    "bravo": "Boston",
-    "charlie": "Chicago",
-    "delta": "Denver",
-    "echo": "Easy",
-    "foxtrot": "Frank"
-  };
-  function checkObj(obj, checkProp) {
-    // Only change code below this line
-   
-   var checkObj = {
-     gift: "pony",
-     pet: "kitten",
-     bed: "sleigh",
-     city: "Seattle",
-   }
-    if(checkObj.hasOwnProperty(checkProp)){
-     return checkObj[checkProp];
-   } else {
-   return "Not Found";
-    
-    
-    // Only change code above this line
-   }
-   }
+const myMusic = [
+  {
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1973,
+    "formats": [
+      "CD",
+      "8T",
+      "LP"
+    ],
+    "gold": true
+  },
+
+  {
+      "artist": "A.R Raheman",
+    "title": "Piano Man",
+    "release_year": 2000,
+    "formats": [
+      "CD",
+      "8T",
+      "LP"
+    ],
+  }
+];
