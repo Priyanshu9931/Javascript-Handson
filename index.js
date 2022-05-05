@@ -16,13 +16,21 @@ function phoneticLookup(val) {
     "echo": "Easy",
     "foxtrot": "Frank"
   };
-  // Only change code below this line
-
-  result = lookup[val];
-
-  // Only change code above this line
-  return result;
-}
-
-// Change this value to test
-phoneticLookup("charlie");
+  function checkObj(obj, checkProp) {
+    // Only change code below this line
+   
+   var checkObj = {
+     gift: "pony",
+     pet: "kitten",
+     bed: "sleigh",
+     city: "Seattle",
+   }
+    if(checkObj.hasOwnProperty(checkProp)){
+     return checkObj[checkProp];
+   } else {
+   return "Not Found";
+    
+    
+    // Only change code above this line
+   }
+   }
