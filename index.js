@@ -4,16 +4,16 @@
 
 /* I love to teach and play with kids */
 
-function testGreaterOrEqual(val) {
-  if (val >= 21) {  // Change this line
-    return "20 or Over";
+function testLessThan(val) {
+  if (val < 25) {  // Change this line
+    return "Under 25";
   }
 
-  if (val >= 10) {  // Change this line
-    return "10 or Over";
+  if (val < 55) {  // Change this line
+    return "Under 55";
   }
 
-  return "Less than 10";
+  return "55 or Over";
 }
 
-testGreaterOrEqual(10);
+testLessThan(10);
