@@ -5,15 +5,24 @@
 /* I love to teach and play with kids */
 
 // Setup
-const myDog = {
-  "name": "Happy Coder",
-  "legs": 4,
-  "tails": 1,
-  "friends": ["freeCodeCamp Campers"],
-  "bark": "woof"
-};
+function phoneticLookup(val) {
+  var result = "";
 
-// Only change code below this line
+  var lookup = {
+    "alpha": "Adams",
+    "bravo": "Boston",
+    "charlie": "Chicago",
+    "delta": "Denver",
+    "echo": "Easy",
+    "foxtrot": "Frank"
+  };
+  // Only change code below this line
 
+  result = lookup[val];
 
-delete myDog.tails;
+  // Only change code above this line
+  return result;
+}
+
+// Change this value to test
+phoneticLookup("charlie");
