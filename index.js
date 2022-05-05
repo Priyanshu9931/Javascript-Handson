@@ -4,17 +4,11 @@
 
 /* I love to teach and play with kids */
 
-// Setup
-const myArray = [];
-let i = 10;
+function sum(arr, n) {
 
-// Only change code below this line
-while (i < 5) {
-  myArray.push(i);
-  i++;
+  if(n <= 0) {
+    return 0;
+  } else {
+    return sum(arr, n - 1) + arr[n - 1];
+  }
 }
-
-do {
-  myArray.push(i);
-  i++;
-} while (i <= 10);
