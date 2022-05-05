@@ -4,15 +4,16 @@
 
 /* I love to teach and play with kids */
 
-if (val <=12) {  // Change this line
-  return "Smaller Than or Equal to 12";
+function testLogicalAnd(val) {
+  // Only change code below this line
+
+  
+    if (val >= 25  && val <= 50) {
+      return "Yes";
+    }
+  
+  // Only change code above this line
+  return "No";
 }
 
-if (val <= 24) {  // Change this line
-  return "Smaller Than or Equal to 24";
-}
-
-return "More Than 24";
-}
-
-testLessOrEqual(10);
+testLogicalAnd(10);
