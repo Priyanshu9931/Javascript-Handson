@@ -5,8 +5,8 @@
 /* I love to teach and play with kids */
 
 
-// Only change code below this line
-function countdown(n){
-  return n < 1 ? [] : [n, ...countdown(n - 1)];
+function rangeOfNumbers(startNum, endNum) {
+  return startNum === endNum
+    ? [startNum]
+    : [...rangeOfNumbers(startNum, endNum - 1), endNum ];
 }
-// Only change code above this line
